@@ -1,35 +1,156 @@
 /*------ Layout-------*/
- /*body{
-	 width:62.5%;
-	 background-color:red;
+html{
+	background-color:#000;
+	}
+body{
 	 margin: auto;
+	 color:#272624;
  	}
- header{
-	 overflow:hidden;
+body li{
+	color:#FFF;
 	}
- h1{
-	 margin-top:0;
-	 margin-bottom:2px;
-	 width:20%;
-	 font-size::1em;
-	 overflow:hidden;
- 	}
- nav{
-	 margin-top:-3.5%;
-	 background-color:green;
-	 width:60%;
-	 float:right;
+header{
+	background-color:#272624;
 	}
- nav li{
-	 list-style:none;
-	 float:left;
+header nav ul{
+	margin:0;
+}
+nav a{
+	font-size:1em;
+	text-decoration:none;
+	}
+	/* logo */
+header h1 a #winterpark{
+	font-size:14px;
+	}
+header h1 a #ampersand{/* color for ampersand*/
+	color:#e92121;
+	}
+#escapeHatch{
+	margin-left:auto;
+	margin-top:0;
+	margin-bottom:2px;
+	font-size:31px;
  	}
- footer nav{
-	 	background-color:green;
+#escapeHatch a{
+	color:#fff;
+	}
+/* logo end */
+/* Nav begin*/
+header nav li{
+	font-size:14px;
+	}
+header nav a{
+	color:#E92121;
+	}
+.container .nav2{
+	width:19.3%;
+	}
+.signup{
+	color:#fff;
+	}
+header nav li:first-child{
+	width:100px;
+	height:24px;
+	background-color:#E92121;
+	}
+footer{
+	clear:both;
+	}
+footer nav{
+	margin-top:auto;
 	 	width:100%;
 		clear:both;
 	}
-.cta*/
+footer nav a{
+	color:#E92121;
+	}
+nav .current{
+	text-decoration:underline;
+	}
+/*nav end*/
+/*cta*/
+#ctainfo{
+		margin-bottom:-290px;
+	}
+#ctainfo li{
+	list-style:url(../media/die_for_dots.png);
+	position:relative;
+	top:-367px;
+	}
+#ctainfo li:last-child{
+	background-color:#E92121;
+	background-image:none;
+	list-style:none;
+	color:#fff;
+	text-align:center;
+	}
+/* cta end */
+/*begin articles */
+#articles{
+	}
+article{
+	background-color:#272624;
+	width:300px;
+	height:187px;
+	}
+.articles article{
+	height:280px;
+	}
+article h2{
+	color:#fff;
+	}
+article h2{
+	text-align:center;
+	}
+
+#locations{
+		background-image:url(../media/article1background.png);
+		background-repeat:no-repeat;
+		background-position: 100px;
+		height:280px;
+		width:300px;
+		text-align:right;
+		list-style:none;
+		padding-left:0;
+		margin-left:-10px;
+	}
+#stores{
+	margin:0;
+	text-align:center;
+	}
+#stores ul{
+		background-image:url(../media/treasurechest.png);
+		background-repeat:no-repeat;
+		background-position: 100px;
+		height:280px;
+		width:300px;
+		padding-left:0;
+		margin-left:-10px;
+	}
+#stores p,#hosting p{
+	color:#fff;
+	}
+#hosting{
+		background-image:url(../media/addverstshosting.png);
+		background-repeat:no-repeat;
+		background-position: 1px;
+		height:280px;
+		width:300px;
+		text-align:right;
+		list-style:none;
+		padding-left:0;
+		margin-left:-10px;
+	}
+#locations ul{
+		padding:0;
+	}
+.articlebutton{
+	text-align:center;
+	background-color:#bd2b2b;
+	color:#fff;
+	clear:both;
+	}
 /*------Typography----*/
 /*------navigation----*/
 /*--------misc--------*/
