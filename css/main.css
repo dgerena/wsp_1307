@@ -12,26 +12,50 @@ body li,body address{
 header{
 	background-color:#272624;
 	}
-header nav ul{
+header h1{
 	margin:0;
-}
-header nav li:first-child{
-	width:100px;
 	}
-nav a{
-	font-size:1em;
+header h1 a{
 	text-decoration:none;
 	}
-	/* logo */
+header nav ul{
+	padding:0;
+	margin:0;
+	}
+header nav li{
+	list-style:none;
+	margin:5px;
+	float:left;
+	padding-right:8px;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-right-color:#FFF;
+	}
+header nav li:last-child{
+	border-right-width:0;
+	}
+header nav input{
+	float:right;
+	}
+.signup{
+	padding:5px;
+	font-size:.9em;
+	display:block;
+	background-color:#952222;
+	float:right;
+	}
+nav a{
+	text-decoration:none;
+	}
+/* logo */
 header h1 a #winterpark{
 	font-size:14px;
 	}
-header h1 a #ampersand{/* color for ampersand*/
+/* color for ampersand*/
+#ampersand{
 	color:#e92121;
 	}
 #escapeHatch{
-	margin-left:auto;
-	margin-top:0;
 	margin-bottom:2px;
 	font-size:31px;
  	}
@@ -40,30 +64,21 @@ header h1 a #ampersand{/* color for ampersand*/
 	}
 /* logo end */
 /* Nav begin*/
-header nav li{
+header nav{
 	font-size:14px;
 	}
 header nav a{
 	color:#E92121;
 	}
-.container .nav2{
-	width:19.3%;
-	}
 .signup{
 	color:#fff;
-	}
-header nav li:first-child{
-	width:100px;
-	height:24px;
-	background-color:#E92121;
 	}
 footer{
 	clear:both;
 	}
 footer nav{
-	margin-top:auto;
-	 	width:100%;
-		clear:both;
+	text-align:center;
+	width:100%;
 	}
 footer nav a{
 	color:#E92121;
@@ -82,12 +97,15 @@ nav .current{
 	position:relative;
 	top:-367px;
 	}
-#ctainfo li:last-child{
-	background-color:#E92121;
-	background-image:none;
-	list-style:none;
-	color:#fff;
+div div a{
 	text-align:center;
+	color:#FFF;
+	display:block;
+	background-color:#952222;
+	}
+.locationfinder{
+	position:relative;
+	pos
 	}
 /* cta end */
 /*begin articles */
@@ -95,11 +113,9 @@ nav .current{
 	}
 article{
 	background-color:#272624;
-	width:300px;
-	height:187px;
+
 	}
 .articles article{
-	height:280px;
 	}
 article h2{
 	color:#fff;
