@@ -6,7 +6,7 @@ body{
 	 margin: auto;
 	 color:#272624;
  	}
-body li{
+body li,body address{
 	color:#FFF;
 	}
 header{
@@ -15,6 +15,9 @@ header{
 header nav ul{
 	margin:0;
 }
+header nav li:first-child{
+	width:100px;
+	}
 nav a{
 	font-size:1em;
 	text-decoration:none;
@@ -72,6 +75,7 @@ nav .current{
 /*cta*/
 #ctainfo{
 		margin-bottom:-290px;
+		margin-top:-1px;
 	}
 #ctainfo li{
 	list-style:url(../media/die_for_dots.png);
@@ -154,3 +158,11 @@ article h2{
 /*------Typography----*/
 /*------navigation----*/
 /*--------misc--------*/
+/* location page */
+div .localaddress{
+	display:none;
+	}
+/*schedule page */
+.scheduledates{
+	display:none;
+	}
