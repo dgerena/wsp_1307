@@ -123,7 +123,7 @@ nav .current{
 	height:398px;
 	background-color:#272624;
 	}
-article h2{
+article h2, h3,div{
 	color:#fff;
 	}
 article h2{
@@ -172,9 +172,6 @@ article h2{
 	clear:both;
 	vertical-align:bottom;
 	}
-/*------Typography----*/
-/*------navigation----*/
-/*--------misc--------*/
 /* location page */
 div .localaddress{
 	display:none;
@@ -183,3 +180,82 @@ div .localaddress{
 .scheduledates{
 	display:none;
 	}
+/* reference page */
+div .editions{
+	float:left;
+	}
+@media (max-width: 995px){
+#nav{
+	width:375px;
+	margin-left:120px;
+	}
+#nav div{
+	float:right;
+	}
+#nav li{
+	border:none;
+	}
+header #search input{
+		width:365px;
+		margin-left:0;
+	}
+.signup{
+	margin:0;
+	}
+#nav div{
+	width:100px;
+	
+	}
+div .locationfinder{
+	margin-right:56px;
+	}
+#ctainfo{
+	margin-top:26px;
+	}
+}
+@media (max-width:767px){
+	#nav{
+	width:500px;
+	margin:0 auto;
+	font-size:1em;
+	}
+	#nav div{
+	float:none;
+	margin:0;
+	}
+#cta{
+	background-position:-530px;
+	}
+.container div iframe{
+	display:none;
+	}
+#ctainfo li{
+	list-style:none;
+	}
+div .scheduledates{
+	display:inline;
+	}
+}
+@media (max-width:480px){
+	#nav{
+	width:100px;
+	margin:0 auto;
+	font-size:1em;
+	}
+	#nav div{
+	float:none;
+	margin:0;
+	}
+#cta{
+	background-position:-530px;
+	}
+.container div iframe{
+	display:none;
+	}
+#ctainfo li{
+	list-style:none;
+	}
+div .scheduledates{
+	display:inline;
+	}
+}
