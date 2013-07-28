@@ -11,23 +11,24 @@
 	<body>
     	<div class="container">
             <header class="grid_12">
-				<h1 class="grid_4 alpha"id="escapeHatch" ><a class="home" href="index.html"><span id="winterpark"> Winter Park</span> Dungeons<span id="ampersand">&amp;</span>Dragons</a> </h1>
+				<h1 class="grid_4 alpha" id="escapeHatch" ><a class="home" href="index.html"><span id="winterpark"> Winter Park</span> Dungeons<span id="ampersand">&amp;</span>Dragons</a> </h1>
                 <nav class="grid_8 omega">
-                    	<ul>
-                        	<li class="prefix_5 grid_1 suffix_2 omega"><a class="signup" href="signup.html">Login/Sign-up</a></li> 
-                            <li class="grid_1 alpha nav1 first"><a class="home" href="index.html">Home</a></li>
-                            <li class="grid_1 alpha nav2"><a class="locations" href="locations.html">Game Locations</a></li>
-                            <li class="grid_1 alpha nav2 current"><a class="schedule" href="schedule.html">Scheduled Games</a></li>
-                            <li class="grid_1 alpha nav2"><a class="links" href="links.html">Pro tool links</a></li>
-                            <li class="grid_1 alpha nav1"><a class="contact" href="contact.html">Contact</a></li>
-                            <li class="grid_1 alpha nav2 last"><a class="refrences" href="refrences.html">Quick Refrence</a></li>
-                            <li class="grid_1 alpha navbar"><input placeholder="Search References" class="grid_2 alpha" type="search" formmethod="post" /></li>
+                		<div class="grid_8 alpha omega">
+                    		<a class="signup" href="signup.html">Login/Sign-up</a>
+                        </div>
+                        <ul class="grid_8 alpha omega">
+                            <li><a class="home" href="index.html">Home</a></li>
+                            <li><a class="locations" href="locations.html">Locations</a></li>
+                            <li><a class="current schedule" href="schedule.html">Scheduled</a></li>
+                            <li><a class="links" href="links.html">Stores</a></li>
+                            <li><a class="refrences last" href="refrences.html">Reference</a></li>
+                            <li><input placeholder="Search References" type="search"></li><!-- not sure how to make this fill the right side gap to edge -->
                         </ul>
                 </nav>
             </header>
             <!-- calendar -->
             <div id="scheduleiframe">
-                	<iframe class="prefix_1" id="iframe" src="https://www.google.com/calendar/embed?src=fmenm5e69o1tmm743bs7jpfeao%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                	<iframe class="prefix_1" id="iframe" src="https://www.google.com/calendar/embed?src=fmenm5e69o1tmm743bs7jpfeao%40group.calendar.google.com&amp;ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
              </div>
               <section class="scheduledates"> <!-- articles for event dates -->
 	            <article class="grid_3 alpha">
@@ -50,31 +51,30 @@
                     <a class=" prefix_1 omega" href="http://www.sci-fi-city.com/_orlando_files/events.htm">Full Event list</a>
                 </article><article class="grid_3">
                    	<h2 class="grid_3">Coliseum of Comics</h2>
-                    <img src="media/Collaseum-banner.jpg"   title="Coliseum of Comics Logo"/>
+                    <img src="media/Collaseum-banner.jpg"   title="Coliseum of Comics Logo" alt="coliseum of comics"/>
                     <p>Every Wed. D&amp;D Encounters 6pm-Close</p>
                     <p>July 17th Encounters 6pm-Close</p>
                     <p>July 24th Encounters 6pm-Close</p>
                     <p>July 31st Encounters 6pm-Close</p>
-                    <a class=" prefix_1 omega" href="http://coliseumofcomics.com/?page_id=5310&ai1ec=cat_ids:51">Full Event list</a>
+                    <a class=" prefix_1 omega" href="http://coliseumofcomics.com/?page_id=5310&amp;ai1ec=cat_ids:51">Full Event list</a>
                 </article>
                 <article class="grid_3 alpha">
                 	<h2 class="grid_3">Campus Cards &amp; Games</h2>
-                    <img src="media/Campus-banner.jpg"  title="Coliseum of Comics Logo"/>
+                    <img src="media/Campus-banner.jpg"  title="Coliseum of Comics Logo" alt="Campus cards and games"/>
                     <p>July 17th D&amp;D Encounters</p>
                     <p>July 27th D&amp;D Encounters</p>
                     <a class=" prefix_1 omega" href="https://www.facebook.com/CampusCardsGames/events">Full Event list</a>
                 </article>
               </section><!-- end of articles for event dates -->
-            </div>
             <footer>
-                <nav class="grid_12">
+                <nav class="grid_12 alpha omega">
                 	<ul>
-                        <li class="grid_1 current"><a class="home" href="index.html">Home</a></li>
-                        <li class="grid_2"><a class="locations" href="locations.html">Game Locations</a></li>
-                        <li class="grid_2"><a class="schedule" href="schedule.html">Scheduled Games</a></li>
-                        <li class="grid_2"><a class="links" href="links.html">Pro tool links</a></li>
+                        <li class="grid_1"><a class="home" href="index.html">Home</a></li>
+                        <li class="grid_2"><a class="locations" href="locations.html">Locations</a></li>
+                        <li class="grid_2"><a class=" current schedule" href="schedule.html">Scheduled</a></li>
+                        <li class="grid_2"><a class="links" href="links.html">Store</a></li>
                         <li class="grid_2"><a class="contact" href="contact.html">Contact</a></li>
-                        <li class="grid_2"><a class="refrences" href="refrences.html">Quick Refrence</a></li>
+                        <li class="grid_2"><a class="refrences" href="refrences.html">Reference</a></li>
                     </ul>
                 </nav>
             </footer>

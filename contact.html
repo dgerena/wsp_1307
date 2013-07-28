@@ -11,17 +11,18 @@
 	<body>
     	<div class="container">
             <header class="grid_12">
-				<h1 class="grid_4 alpha"id="escapeHatch" ><a class="home" href="index.html"><span id="winterpark"> Winter Park</span> Dungeons<span id="ampersand">&amp;</span>Dragons</a> </h1>
+				<h1 class="grid_4 alpha" id="escapeHatch" ><a class="home" href="index.html"><span id="winterpark"> Winter Park</span> Dungeons<span id="ampersand">&amp;</span>Dragons</a> </h1>
                 <nav class="grid_8 omega">
-                    	<ul>
-                        	<li class="prefix_5 grid_1 suffix_2 omega"><a class="signup" href="signup.html">Login/Sign-up</a></li> 
-                            <li class="grid_1 alpha nav1 first"><a class="home" href="index.html">Home</a></li>
-                            <li class="grid_1 alpha nav2"><a class="locations" href="locations.html">Game Locations</a></li>
-                            <li class="grid_1 alpha nav2"><a class="schedule" href="schedule.html">Scheduled Games</a></li>
-                            <li class="grid_1 alpha nav2"><a class="links" href="links.html">Pro tool links</a></li>
-                            <li class="grid_1 alpha nav1"><a class="contact" href="contact.html">Contact</a></li>
-                            <li class="grid_1 alpha nav2 last"><a class="refrences" href="refrences.html">Quick Refrence</a></li>
-                            <li class="grid_1 alpha navbar"><input placeholder="Search References" class="grid_2 alpha" type="search" formmethod="post" /></li>
+                		<div class="grid_8 alpha omega">
+                    		<a class="signup" href="signup.html">Login/Sign-up</a>
+                        </div>
+                        <ul class="grid_8 alpha omega">
+                            <li><a class="home" href="index.html">Home</a></li>
+                            <li><a class="locations" href="locations.html">Locations</a></li>
+                            <li><a class="schedule" href="schedule.html">Scheduled</a></li>
+                            <li><a class="links" href="links.html">Stores</a></li>
+                            <li><a class="refrences last" href="refrences.html">Reference</a></li>
+                            <li><input placeholder="Search References" type="search"></li><!-- not sure how to make this fill the right side gap to edge -->
                         </ul>
                 </nav>
             </header>
@@ -29,39 +30,38 @@
                 <h2 class="grid_3">Location Owners</h2>
                 <h2 class="grid_3">Store Owners</h2>
                 <form class="grid_9 alpha">
-                	<fieldset class="grid_9 alpha">
-                		<ol class="grid_9 alpha">
-                    		<li class=" grid_9 alpha"> <label for="problem">Where is the problem:</label>
+                	<fieldset>
+                		<ol>
+                    		<li> <label for="problem">Where is the problem:</label>
                         		<select id="problem">
                                     <option value="Website">Website</option>
                                     <option value="Location">Locations</option>
                                     <option value="Password">Password/Profile</option>
                                     <option value="Stores">Store/Vendors</option>
                         		</select></li>
-                        	<li class=" grid_9 alpha"><label for="webhelp">Website Problems</label>
+                        	<li><label for="webhelp">Website Problems</label>
                             	<select id="webhelp">
                                     <option value="Links">Links</option>
                         		</select></li>
-                            <li class="grid_9 alpha"><label for="browser">Browser</label>
+                            <li><label for="browser">Browser</label>
                             	<select id="browser"  >
                                     <option value="Chrome">Chrome</option>
                                     <option value="Explorer">Internet Explorer 8-10</option>
                                     <option value="Firefox">Firefox</option>
                                     <option value="Opera">Opera</option>
                         		</select></li>
-                            <li class=" grid_9 alpha"><label for="os">Operating System</label>
+                            <li><label for="os">Operating System</label>
                             	<select id="os">
                                     <option value="windows">Windows</option>
                                     <option value="Apple">IOS</option>
                                     <option value="droid">Android</option>
                                     <option value="E-reader">E-Reader</option>
                         		</select></li>
-                            <li class="grid_9 email"><label for="email">Email</label>
-                            	<input id="email" type="email" name="Email">
+                            <li><label for="email">Email</label>
+                            	<input id="email" type="email" name="Email"></li>
                     	</ol>
                     </fieldset>
                 </form>
-            </div><!-- top div for tab heads -->
             <article class="grid_2 omega">
             	<h3 class="grid_2 omega">Help, at a glance</h3>
             	<ul class="grid_2 omega">
@@ -71,18 +71,18 @@
                     <li class="grid_2">Password Trouble</li>
                 </ul>
              </article>
-            <footer><!-- footer nave -->
-                <nav class="grid_12">
-                    	<ul>
-                            <li class="grid_1"><a class="home" href="index.html">Home</a></li>
-                            <li class="grid_2"><a class="locations" href="locations.html">Game Locations</a></li>
-                            <li class="grid_2"><a class="schedule" href="schedule.html">Scheduled Games</a></li>
-                            <li class="grid_2"><a class="links" href="links.html">Pro tool links</a></li>
-                            <li class="grid_1"><a class="contact" href="contact.html">Contact</a></li>
-                            <li class="grid_2"><a class="refrences" href="refrences.html">Quick Refrence</a></li>
-                        </ul>                
-                </nav><!-- end of nav -->
-            </footer><!-- end of footer -->
+            <footer>
+                <nav class="grid_12 alpha omega">
+                	<ul>
+                        <li class="grid_1"><a class="home" href="index.html">Home</a></li>
+                        <li class="grid_2"><a class="locations" href="locations.html">Locations</a></li>
+                        <li class="grid_2"><a class="schedule" href="schedule.html">Scheduled</a></li>
+                        <li class="grid_2"><a class="links" href="links.html">Store</a></li>
+                        <li class="grid_2"><a class="current contact" href="contact.html">Contact</a></li>
+                        <li class="grid_2"><a class="refrences" href="refrences.html">Reference</a></li>
+                    </ul>
+                </nav>
+            </footer>
         </div> <!-- end of container div -->
 	</body><!-- end of body -->
 </html>

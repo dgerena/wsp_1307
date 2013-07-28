@@ -6,11 +6,8 @@ body{
 	 margin: auto;
 	 color:#272624;
  	}
-body li,body address{
+body li,body address,body table, body h2{
 	color:#FFF;
-	}
-header{
-	background-color:#272624;
 	}
 header h1{
 	margin:0;
@@ -24,14 +21,22 @@ header nav ul{
 	}
 header nav li{
 	list-style:none;
-	margin:5px;
+	margin:10px 5px 5px 5px;
 	float:left;
 	padding-right:8px;
 	border-right-style:solid;
 	border-right-width:1px;
 	border-right-color:#FFF;
 	}
+header input{
+	display:block;
+	width:262px;
+	margin:-4px 0 0 -12px;
+	}
 header nav li:last-child{
+	border-right-width:0;
+	}
+.refrence{
 	border-right-width:0;
 	}
 header nav input{
@@ -43,8 +48,12 @@ header nav input{
 	display:block;
 	background-color:#952222;
 	float:right;
+	margin-right:14px;
 	}
-nav a{
+#cta h2 a{
+	margin-top:4px;
+	}
+nav a, h2 a{
 	text-decoration:none;
 	}
 /* logo */
@@ -59,7 +68,7 @@ header h1 a #winterpark{
 	margin-bottom:2px;
 	font-size:31px;
  	}
-#escapeHatch a{
+#escapeHatch a,h2 a{
 	color:#fff;
 	}
 /* logo end */
@@ -88,34 +97,31 @@ nav .current{
 	}
 /*nav end*/
 /*cta*/
+#cta{
+	background-image:url(../media/cta-improved.png);
+	background-repeat:no-repeat;
+	height:424px;
+	}
 #ctainfo{
-		margin-bottom:-290px;
-		margin-top:-1px;
+		margin-top:53px;
 	}
 #ctainfo li{
 	list-style:url(../media/die_for_dots.png);
 	position:relative;
-	top:-367px;
 	}
-div div a{
+.locationfinder{
 	text-align:center;
 	color:#FFF;
 	display:block;
 	background-color:#952222;
-	}
-.locationfinder{
-	position:relative;
-	pos
+	float:right;
+	margin-right:83px;
 	}
 /* cta end */
 /*begin articles */
-#articles{
-	}
-article{
+#hosting,#stores,#locations{
+	height:398px;
 	background-color:#272624;
-
-	}
-.articles article{
 	}
 article h2{
 	color:#fff;
@@ -123,30 +129,30 @@ article h2{
 article h2{
 	text-align:center;
 	}
+.search{
+	margin-left:-4;
+	}
 
 #locations{
 		background-image:url(../media/article1background.png);
 		background-repeat:no-repeat;
 		background-position: 100px;
-		height:280px;
-		width:300px;
 		text-align:right;
 		list-style:none;
 		padding-left:0;
-		margin-left:-10px;
 	}
-#stores{
-	margin:0;
-	text-align:center;
+#locations table{
+	margin:0 10px;
 	}
 #stores ul{
 		background-image:url(../media/treasurechest.png);
 		background-repeat:no-repeat;
-		background-position: 100px;
-		height:280px;
-		width:300px;
-		padding-left:0;
-		margin-left:-10px;
+		background-position: 48px;
+		padding:0;
+	}
+#stores li{
+			margin-left:82px;
+			margin-top:24px;		
 	}
 #stores p,#hosting p{
 	color:#fff;
@@ -155,13 +161,7 @@ article h2{
 		background-image:url(../media/addverstshosting.png);
 		background-repeat:no-repeat;
 		background-position: 1px;
-		height:280px;
-		width:300px;
-		text-align:right;
-		list-style:none;
-		padding-left:0;
-		margin-left:-10px;
-	}
+		}
 #locations ul{
 		padding:0;
 	}
@@ -170,6 +170,7 @@ article h2{
 	background-color:#bd2b2b;
 	color:#fff;
 	clear:both;
+	vertical-align:bottom;
 	}
 /*------Typography----*/
 /*------navigation----*/
