@@ -92,7 +92,7 @@ footer nav{
 footer nav a{
 	color:#E92121;
 	}
-nav .current{
+nav .current,.editions .current{
 	text-decoration:underline;
 	}
 /*nav end*/
@@ -119,21 +119,30 @@ nav .current{
 	}
 /* cta end */
 /*begin articles */
-#hosting,#stores,#locations{
+article {
 	height:398px;
 	background-color:#272624;
 	}
 article h2, h3,div{
 	color:#fff;
 	}
+article h2 a {
+	background-color: #952222;
+	display: block;
+	padding: 5px;
+	}
 article h2{
 	text-align:center;
 	}
-.search{
-	margin-left:-4;
+.content {
+	height: 250px;
+	}
+.content p{
+	margin:10px;
 	}
 
-#locations{
+#locations {
+	display:block;
 		background-image:url(../media/article1background.png);
 		background-repeat:no-repeat;
 		background-position: 100px;
@@ -144,7 +153,7 @@ article h2{
 #locations table{
 	margin:0 10px;
 	}
-#stores ul{
+#stores {
 		background-image:url(../media/treasurechest.png);
 		background-repeat:no-repeat;
 		background-position: 48px;
@@ -190,7 +199,23 @@ div .editions{
 	}
 .editions{
 	background-color:#272624;
+	padding:20px;
 	}
+.editions li{
+	list-style:none;
+	}
+.editions li a{
+	color:#FFF;
+	text-decoration:none;
+}
+.editions a{
+	color:#FFF;
+	text-decoration:none;
+}
+.pagenation li{
+	display:inline-block;
+}
+
 @media (max-width: 995px){
 #nav{
 	width:375px;
@@ -242,7 +267,9 @@ div .locationfinder{
 div .scheduledates{
 	display:inline;
 	}
-}
+.articles{
+	background-color:#272624;
+	}
 @media (max-width:480px){
 	#nav{
 	width:100px;
