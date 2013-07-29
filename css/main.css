@@ -31,7 +31,7 @@ header nav li{
 header input{
 	display:block;
 	width:262px;
-	margin:-4px 0 0 -12px;
+	margin:-4px 0 0 -15px;
 	}
 header nav li:last-child{
 	border-right-width:0;
@@ -183,6 +183,13 @@ div .localaddress{
 /* reference page */
 div .editions{
 	float:left;
+	}
+#localadd, #onlineadd{
+	height:270px;
+	background-color:#272624;
+	}
+.editions{
+	background-color:#272624;
 	}
 @media (max-width: 995px){
 #nav{
