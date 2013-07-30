@@ -199,7 +199,8 @@ div .editions{
 	}
 .editions{
 	background-color:#272624;
-	padding:20px;
+	padding:5px;
+	height:488px;
 	}
 .editions li{
 	list-style:none;
@@ -207,13 +208,40 @@ div .editions{
 .editions li a{
 	color:#FFF;
 	text-decoration:none;
-}
+	}
 .editions a{
 	color:#FFF;
 	text-decoration:none;
-}
+	float:right;
+	}
+.editions dl{
+	border-top:1px solid;
+	border-bottom:1px solid;
+	border-color:#494743;
+
+	clear:both;
+	padding:5px;
+	}
+.editions dl dd{
+	margin:0;
+	}
+.italics{
+	font-style:italic;
+	}
+.pagenation{
+	float:left;
+	margin:0;
+	padding-left:5px;
+	}
 .pagenation li{
 	display:inline-block;
+	}
+.defword{
+	font-weight:bold;
+	}
+/* contat section */
+fomr fieldset li select{
+	float:right;
 }
 
 @media (max-width: 995px){
@@ -272,13 +300,21 @@ div .scheduledates{
 	}
 @media (max-width:480px){
 	#nav{
-	width:100px;
+	width:100%;
 	margin:0 auto;
 	font-size:1em;
 	}
 	#nav div{
 	float:none;
 	margin:0;
+	text-align:center;
+	width:100%;
+	}
+	.home{
+		display:inline-block;
+	}
+.signup{
+	width:100%;	
 	}
 #cta{
 	background-position:-530px;
