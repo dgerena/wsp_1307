@@ -11,7 +11,7 @@
 	<body>
     	<div class="container">
             <header class="grid_12">
-				<h1 class="grid_4 alpha" id="escapeHatch" ><a class="home" href="index.html"><span id="winterpark"> Winter Park</span> Dungeons<span id="ampersand">&amp;</span>Dragons</a> </h1>
+				<h1 class="grid_4 alpha" id="escapeHatch" ><a href="index.html"><span id="winterpark"> Winter Park</span> Dungeons<span id="ampersand">&amp;</span>Dragons</a> </h1>
                 <nav class="grid_8 omega" id="nav">
                 		<div class="grid_8 alpha omega">
                     		<a class="signup" href="signup.html">Login/Sign-up</a>
@@ -26,61 +26,66 @@
                         </ul>
                 </nav>
             </header>
-            	<h2 class="grid_3">Problem Solving</h2>
-                <h2 class="grid_3">Location Owners</h2>
-                <h2 class="grid_3">Store Owners</h2>
-                <form class="grid_9 alpha omega">
+            	<h2 class="grid_3 active"><a href="#"> Problem Solving</a></h2>
+                <h2 class="grid_3"><a href="#">Location Owners</a></h2>
+                <h2 class="grid_3"><a href="#">Store Owners</a></h2>
+                <form class="grid_9">
                 	<fieldset>
-                		<ol>
-                    		<li> <label for="problem">Where is the problem:</label>
-                        		<select id="problem">
+			            <label class="grid_4">First Name:</label>
+			            	<input name="FirstName" type="text" class="element grid_4" id="FirstName"/>
+			            	<div class="clear"></div>
+
+			            	<label class="grid_4">Last Name:</label>
+			            	<input name="LastName" type="text" class="element grid_4" id="LastName"/>
+			            	<div class="clear"></div>
+
+			            	<label class="grid_4">Phone:</label>
+			            	<input name="Phone" type="text" class="element grid_4" id="Phone"/>
+			            	<div class="clear"></div>
+			            <label for="email" class="grid_4">Email</label>
+                        <input id="email" type="email" name="Email" class="grid_4" />
+                        <label for="problem" class="grid_4">Where is the problem:</label>
+                        <select id="problem" class="grid_4">
                                     <option value="Website">Website</option>
                                     <option value="Location">Locations</option>
                                     <option value="Password">Password/Profile</option>
                                     <option value="Stores">Store/Vendors</option>
-                        		</select></li>
-                        	<li><label for="webhelp">Website Problems</label>
-                            	<select id="webhelp">
-                                    <option value="Links">Links</option>
-                        		</select></li>
-                            <li><label for="browser">Browser</label>
-                            	<select id="browser"  >
-                                    <option value="Chrome">Chrome</option>
-                                    <option value="Explorer">Internet Explorer 8-10</option>
-                                    <option value="Firefox">Firefox</option>
-                                    <option value="Opera">Opera</option>
-                        		</select></li>
-                            <li><label for="os">Operating System</label>
-                            	<select id="os">
-                                    <option value="windows">Windows</option>
-                                    <option value="Apple">IOS</option>
-                                    <option value="droid">Android</option>
-                                    <option value="E-reader">E-Reader</option>
-                        		</select></li>
-                            <li><label for="email">Email</label>
-                            	<input id="email" type="email" name="Email"></li>
-                    	</ol>
+                        </select>
+                        <label for="webhelp" class="grid_4">Website Problems</label>
+                        <select id="webhelp" class="grid_4">
+	                    <option value="Links">Links</option>
+	                    </select>
+	                    <label for="browser" class="grid_4">Browser</label>
+	                    <select id="browser"  class="grid_4">
+		                    <option value="Chrome">Chrome</option>
+		                    <option value="Explorer">Internet Explorer 8-10</option>
+		                    <option value="Firefox">Firefox</option>
+		                    <option value="Opera">Opera</option>
+		                </select>
+		                <label for="os" class="grid_4">Operating System</label>
+		                <select id="os" class="grid_4">
+			                <option value="windows">Windows</option>
+			                <option value="Apple">IOS</option>
+			                <option value="droid">Android</option>
+			                <option value="E-reader">E-Reader</option>
+			            </select>
+			            <input name="Submit" type="button" class="button grid_2" value="Submit" />
                     </fieldset>
                 </form>
-            <article class="grid_2 omega">
-            	<h3 class="grid_2 omega">Help, at a glance</h3>
-            	<ul class="grid_2 omega">
-                	<li class="grid_2">Password Trouble</li>
-                    <li class="grid_2">Password Trouble</li>
-                    <li class="grid_2">Password Trouble</li>
-                    <li class="grid_2">Password Trouble</li>
-                </ul>
+            <article class="grid_3">
+            	<h3>Help, at a glance</h3>
+            	<p> Password Help? </p>
              </article>
             <footer>
                 <nav class="grid_12 alpha omega">
-                	<ul>
-                        <li class="grid_1"><a class="home" href="index.html">Home</a></li>
-                        <li class="grid_2"><a class="locations" href="locations.html">Locations</a></li>
-                        <li class="grid_2"><a class="schedule" href="schedule.html">Scheduled</a></li>
-                        <li class="grid_2"><a class="links" href="links.html">Store</a></li>
-                        <li class="grid_2"><a class="current contact" href="contact.html">Contact</a></li>
-                        <li class="grid_2"><a class="refrences" href="refrences.html">Reference</a></li>
-                    </ul>
+                   	<ul class="grid_12 alpha omega">
+	                   	<li><a class="home" href="index.html">Home</a></li>
+	                   	<li><a class="locations" href="locations.html">Locations</a></li>
+	                   	<li><a class="schedule" href="schedule.html">Scheduled</a></li>
+	                   	<li><a class="links" href="links.html">Stores</a></li>
+	                   	<li><a class="refrences" href="refrences.html">Reference</a></li>
+	                   	<li><a class=" active contact" href="contact.html">Contact</a></li>
+	                </ul>
                 </nav>
             </footer>
         </div> <!-- end of container div -->
